@@ -28,7 +28,7 @@
     margin-left: 10vw;
     display: table;
 }
-a{
+.nav a{
     color: lightgrey;
     display: flex;
     font-size: 1.3vw;
@@ -72,38 +72,35 @@ h1{
 .social-icons{
     display: inline-flex;
     list-style-type: none;
-    width: 30%;
-    height: 30%;
     position: absolute;
     margin-top: 36%;
     margin-left: 25%;
     overflow: hidden;
-    background-color: white;
+    width: 75%;
+    height: 12vw;
+    border-bottom-color: darkgray;
+    border-bottom-style: solid;
+    border-bottom-width:  0.1vw;
 }
-li a {
-    height: 5vw;
-    width: 5vw;
-    text-align: center;
-    padding: 2px;
-    text-decoration: none;
+ .social-icons img{
+     width: 5vw;
+     height: 5vw;
+     padding: 1vw;
 }
 li a:hover{
   opacity: 0.6;
-}
-.line{
-    position: absolute;
-    left: 20%;
-    top: 45vw;
-    height: 1px;
-    width: 80%;
-    background-color: darkgrey;
 }
 .about{
     position: absolute;
     top: 50vw;
     left: 25%;
+    width: 75%;
+    height: 25vw;
+    border-bottom-color: darkgray;
+    border-bottom-style: solid;
+    border-bottom-width:  0.1vw;
 }
-.about h2{
+h2{
     font-size: 4vw;
     transform: scale(1,1.5);
     color: rgb(200, 120, 76);
@@ -117,4 +114,50 @@ p{
     line-height: 2vw;
     font-size: 1.3vw;
     color: grey;
+}
+.projects{
+    position: absolute;
+    top: 78vw;
+    left: 25%;
+    width: 75%;
+    height: 23vw;
+    border-bottom-color: darkgray;
+    border-bottom-style: solid;
+    border-bottom-width:  0.1vw;
+}
+.projects li{
+    padding-top: 1vw;
+    margin-left: 3vw;
+   font-family:Helvetica, sans-serif;
+    font-size: 1.3vw;
+    color: gray;
+}
+.projects li a{
+    color: gray;
+    text-decoration: none;
+}
+.contact{
+    position: absolute;
+    top:104vw;
+    left: 25%;
+    width: 75%;
+    height: 15vw;
+}
+.footer{
+    position: absolute;
+    top:119vw;
+    left: 20%;
+    display: block;
+    width: 80%;
+    height: 5vw;
+    background-color: rgb(245, 245, 245);
+    border-top-color: darkgray;
+    border-top-style: solid;
+    border-top-width:  0.1vw;
+}
+.footer p{
+    margin-left: 3vw;
+     padding-top: 2vw;
+    text-align: center;
+    font-family: proxima nova;
 }
